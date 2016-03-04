@@ -1,0 +1,3 @@
+//	Internet标准MTU 值为576 字节，UDP 数据长度最大548(576-8-20)字节。
+//	"Content-Type: application/x-www-form-urlencoded\r\n"
+
