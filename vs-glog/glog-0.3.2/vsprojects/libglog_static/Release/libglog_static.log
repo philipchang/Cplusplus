@@ -1,0 +1,28 @@
+﻿Build started 2015/12/16 11:39:22.
+     1>Project "D:\workspace\vs-glog\glog-0.3.2\vsprojects\libglog_static\libglog_static.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "D:\workspace\vs-glog\glog-0.3.2\Release\".
+       InitializeBuildStatus:
+         Creating "Release\libglog_static.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\src\windows /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D GOOGLE_GLOG_DLL_DECL= /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\logging.cc ..\..\src\windows\port.cc ..\..\src\raw_logging.cc ..\..\src\utilities.cc ..\..\src\vlog_is_on.cc
+         logging.cc
+         port.cc
+         raw_logging.cc
+         utilities.cc
+         vlog_is_on.cc
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\workspace\vs-glog\glog-0.3.2\Release\libglog_static.lib" /NOLOGO /LTCG Release\logging.obj
+         Release\port.obj
+         Release\raw_logging.obj
+         Release\utilities.obj
+         Release\vlog_is_on.obj
+         libglog_static.vcxproj -> D:\workspace\vs-glog\glog-0.3.2\Release\libglog_static.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\libglog_static.unsuccessfulbuild".
+         Touching "Release\libglog_static.lastbuildstate".
+     1>Done Building Project "D:\workspace\vs-glog\glog-0.3.2\vsprojects\libglog_static\libglog_static.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.52

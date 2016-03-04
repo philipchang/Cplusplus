@@ -1,0 +1,38 @@
+﻿Build started 2015/12/16 15:38:48.
+     1>Project "D:\workspace\vs-glog\glog-0.3.2\vsprojects\libglog_static\libglog_static.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\libglog_static.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\src\windows /ZI /nologo /W3 /WX- /Od /Oy- /D GOOGLE_GLOG_DLL_DECL= /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\signalhandler.cc
+         signalhandler.cc
+     1>d:\workspace\vs-glog\glog-0.3.2\src\signalhandler.cc(173): error C2061: syntax error : identifier 'siginfo_t'
+     1>d:\workspace\vs-glog\glog-0.3.2\src\signalhandler.cc(195): error C2065: 'siginfo' : undeclared identifier
+     1>d:\workspace\vs-glog\glog-0.3.2\src\signalhandler.cc(195): error C2227: left of '->si_addr' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>d:\workspace\vs-glog\glog-0.3.2\src\signalhandler.cc(244): error C2079: 'sig_action' uses undefined struct 'google::`anonymous-namespace'::InvokeDefaultSignalHandler::sigaction'
+     1>d:\workspace\vs-glog\glog-0.3.2\src\signalhandler.cc(246): error C2228: left of '.sa_mask' must have class/struct/union
+                 type is 'int'
+     1>d:\workspace\vs-glog\glog-0.3.2\src\signalhandler.cc(246): error C3861: 'sigemptyset': identifier not found
+     1>d:\workspace\vs-glog\glog-0.3.2\src\signalhandler.cc(247): error C2228: left of '.sa_handler' must have class/struct/union
+                 type is 'int'
+     1>d:\workspace\vs-glog\glog-0.3.2\src\signalhandler.cc(248): error C2514: 'google::`anonymous-namespace'::InvokeDefaultSignalHandler::sigaction' : class has no constructors
+                 d:\workspace\vs-glog\glog-0.3.2\src\signalhandler.cc(244) : see declaration of 'google::`anonymous-namespace'::InvokeDefaultSignalHandler::sigaction'
+     1>d:\workspace\vs-glog\glog-0.3.2\src\signalhandler.cc(249): error C3861: 'kill': identifier not found
+     1>d:\workspace\vs-glog\glog-0.3.2\src\signalhandler.cc(261): error C2061: syntax error : identifier 'siginfo_t'
+     1>d:\workspace\vs-glog\glog-0.3.2\src\signalhandler.cc(303): error C2065: 'ucontext' : undeclared identifier
+     1>d:\workspace\vs-glog\glog-0.3.2\src\signalhandler.cc(339): error C2079: 'sig_action' uses undefined struct 'google::InstallFailureSignalHandler::sigaction'
+     1>d:\workspace\vs-glog\glog-0.3.2\src\signalhandler.cc(341): error C2228: left of '.sa_mask' must have class/struct/union
+                 type is 'int'
+     1>d:\workspace\vs-glog\glog-0.3.2\src\signalhandler.cc(341): error C3861: 'sigemptyset': identifier not found
+     1>d:\workspace\vs-glog\glog-0.3.2\src\signalhandler.cc(342): error C2228: left of '.sa_flags' must have class/struct/union
+                 type is 'int'
+     1>d:\workspace\vs-glog\glog-0.3.2\src\signalhandler.cc(342): error C2065: 'SA_SIGINFO' : undeclared identifier
+     1>d:\workspace\vs-glog\glog-0.3.2\src\signalhandler.cc(343): error C2228: left of '.sa_sigaction' must have class/struct/union
+                 type is 'int'
+     1>d:\workspace\vs-glog\glog-0.3.2\src\signalhandler.cc(346): error C2514: 'google::InstallFailureSignalHandler::sigaction' : class has no constructors
+                 d:\workspace\vs-glog\glog-0.3.2\src\signalhandler.cc(339) : see declaration of 'google::InstallFailureSignalHandler::sigaction'
+     1>Done Building Project "D:\workspace\vs-glog\glog-0.3.2\vsprojects\libglog_static\libglog_static.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.33

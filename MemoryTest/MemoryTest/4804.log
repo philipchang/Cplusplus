@@ -1,0 +1,6 @@
+Log file created at: 2015/12/18 11:06:28
+Running on machine: 123QWW-PC
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W1218 11:06:28.079941  9988 main.cpp:187] one log warning 111
+I1218 11:06:28.092942  9988 main.cpp:188] INFO  init........
+E1218 11:06:28.092942  9988 main.cpp:189] ERROR  init........
